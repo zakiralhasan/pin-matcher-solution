@@ -21,7 +21,7 @@ document.getElementById('pin-generator-btn').addEventListener('click', function(
     pinDisplayField.value = getPinNumber;
 });
 
-/* ****************************  Part-2 (PIN matche and submit section)   ************************ */
+/* ****************************  Part-2 (PIN match and submit section)   ************************ */
 // key input section 
 document.getElementById('key-container').addEventListener('click', function(event){
     const clickedKey = event.target.innerText;
